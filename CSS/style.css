@@ -5,7 +5,6 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 body .container{
-    background-color: antiquewhite;
     height: 100vh;
     width: 100%;
 }
@@ -45,4 +44,15 @@ body .container{
 .container .head ul li a:hover{
     background-color: #fff;
     color: #6C757D;
+}
+.container .content{
+    background-color: #F8F9FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
 }
