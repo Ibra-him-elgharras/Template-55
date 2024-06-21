@@ -29,9 +29,20 @@ body .container{
 .container .head ul li{
     display: inline-flex;
 }
+.container .head ul li .active{
+    background-color: #fff;
+    color: #6C757D;
+}
 .container .head ul li a{
     text-decoration: none;
     color: #fff;
     font-size: 18px;
     margin-left: 40px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease-out;
+}
+.container .head ul li a:hover{
+    background-color: #fff;
+    color: #6C757D;
 }
